@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(61, 137, 230);
+}
+.menu{
+    text-align: center;
+    margin: 0;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    padding: 45px;
+    color: rgb(237, 237, 16);
+    text-decoration: orange;
+    display: block;
+
+}
+.menu a:hover{
+    background-color: rgb(225, 156, 66);
+    font-size: large;
+}
+
+.central{
+    background-color: aliceblue;
+    color: rgb(13, 0, 255);
+    text-align: center;
+    overflow: hidden;
+    padding: 40px;
+}
+.aside{
+    grid-area: aside;
+    background-color: rgba(181, 234, 230, 0.739);
+}
